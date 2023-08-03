@@ -1,0 +1,8 @@
+.navbar {
+    background-color: #3E5B76;
+    color: white;
+  }
+
+.navbar-nav{
+    --bs-nav-link-color: white !important;
+}

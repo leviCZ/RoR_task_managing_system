@@ -1,0 +1,25 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.login-form form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #d7d7d7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.login-form .field {
+  margin-bottom: 10px;
+}
+
+.login-form .actions {
+  text-align: center;
+}

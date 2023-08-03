@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Buddy</title>
+</head>
+<body>
+  <h1>Welcome to Task Buddy!</h1>
+  <% if !user_signed_in? %>
+  <p>Please <%= link_to 'Login', new_user_session_path %>, or  <%= link_to 'Register', new_user_registration_path %> if you don't have an account yet.</p>
+  <% else %>
+  <p>Hello <%= current_user.first_name %>, feel free to create new projects or assign Tasks as you please. :)</p>
+  <% end %>
+</body>
+</html>
